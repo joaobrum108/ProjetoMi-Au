@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+        <!-- Definir a cor azul para o botão -->
+        <color name="blue">#145EB3</color> <!-- A cor azul que você deseja usar -->
+
+
 </resources>

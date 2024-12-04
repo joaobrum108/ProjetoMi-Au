@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Botão de voltar"
+        android:src="@drawable/seta"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.9" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="111dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:text="Notificações"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/back_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="2"
+        />
+
+    <!-- Ícone de Sacola -->
+    <ImageView
+        android:id="@+id/icon_notification2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="Ícone de Notificação"
+        app:layout_constraintEnd_toStartOf="@id/icon_bag"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/notificacao" />
+
+    <!-- Conteúdo Principal -->
+
+    <ImageView
+        android:id="@+id/icon_bag"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="Ícone de Sacola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sacola" />
+
+    <ImageView
+        android:id="@+id/noticf"
+        android:layout_width="82dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        app:srcCompat="@drawable/notifcg" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="Olá Richard, seja bem-vindo à nossa família! Aproveite para explorar nosso aplicativo e conhecer um pouco mais de nós!"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/noticf"
+        app:layout_constraintTop_toTopOf="@id/noticf" />
+</androidx.constraintlayout.widget.ConstraintLayout>

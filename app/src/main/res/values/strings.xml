@@ -4,6 +4,11 @@
 
         <!-- String para o botão com o símbolo "+" -->
         <string name="button_add">+</string>
+    <string name="ol_richard_seja_bem_vindo_nossa_fam_lia_aproveite_para_explorar_nosso_aplicativo_e_conhecer_um_pouco_mais_de_n_s">Olá Richard, seja bem-vindo à nossa família! Aproveite para explorar nosso aplicativo e conhecer um pouco mais de nós!</string>
+    <string name="cone_de_sacola">Ícone de Sacola</string>
+    <string name="cone_de_notifica_o">Ícone de Notificação</string>
+    <string name="bot_o_de_voltar">Botão de voltar</string>
+    <string name="notifica_es">Notificações</string>
 
 
 </resources>

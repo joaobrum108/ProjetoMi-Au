@@ -5,7 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    android:background="#F5F5F5"
+    android:id="@+id/parent_container"
+    >
 
 
 
@@ -14,7 +16,7 @@
         android:layout_width="41dp"
         android:layout_height="37dp"
         android:layout_marginStart="16dp"
-        android:contentDescription="Botão de voltar"
+        android:contentDescription="@string/bot_o_de_voltar"
         android:src="@drawable/seta"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +29,7 @@
         android:layout_height="26dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="56dp"
-        android:text="Notificações"
+        android:text="@string/notifica_es"
         android:textColor="#333333"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -43,7 +45,7 @@
         android:layout_height="24dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="32dp"
-        android:contentDescription="Ícone de Notificação"
+        android:contentDescription="@string/cone_de_notifica_o"
         app:layout_constraintEnd_toStartOf="@id/icon_bag"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/notificacao" />
@@ -56,7 +58,7 @@
         android:layout_height="24dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="24dp"
-        android:contentDescription="Ícone de Sacola"
+        android:contentDescription="@string/cone_de_sacola"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/sacola" />
@@ -78,7 +80,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
-        android:text="Olá Richard, seja bem-vindo à nossa família! Aproveite para explorar nosso aplicativo e conhecer um pouco mais de nós!"
+        android:text="@string/ol_richard_seja_bem_vindo_nossa_fam_lia_aproveite_para_explorar_nosso_aplicativo_e_conhecer_um_pouco_mais_de_n_s"
         android:textColor="#333333"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
